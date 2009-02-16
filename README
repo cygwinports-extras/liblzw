@@ -1,0 +1,77 @@
+liblzw
+------------------------------------------
+Small library to provide an API for reading LZW compressed (.Z) files.
+API is similar to that of zlib (for reading .gz files) and bzlib (for
+reading .bz2 files) which themselves are just like the classical UNIX
+functions for reading files.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+
+Build requirements:
+  cygwin-1.5.25-7
+  autoconf2.5-2.60-1
+  automake1.9-1.9.6-1
+  binutils-20050817-1
+  cygport-0.2.6-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.23a-1
+  make-3.81-1
+  sed-4.1.5-1
+
+Canonical website:
+  http://freestdf.sourceforge.net/liblzw.php
+
+Canonical download:
+  http://downloads.sourceforge.net/freestdf/
+
+-------------------------------------------
+
+Build instructions:
+  unpack liblzw-0.1.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./liblzw-0.1.1-X.cygport all
+
+This will create:
+  /usr/src/liblzw-0.1.1-X-src.tar.bz2
+  /usr/src/liblzw-0.1.1-X.tar.bz2
+  /usr/src/liblzw-devel-0.1.1-X.tar.bz2
+  /usr/src/liblzw0-0.1.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(liblzw)
+  /usr/share/doc/Cygwin/liblzw-0.1.1.README
+  /usr/share/doc/liblzw-0.1.1/AUTHORS
+  /usr/share/doc/liblzw-0.1.1/COPYING
+  /usr/share/doc/liblzw-0.1.1/ChangeLog
+  /usr/share/doc/liblzw-0.1.1/INSTALL
+  /usr/share/doc/liblzw-0.1.1/NEWS
+  /usr/share/doc/liblzw-0.1.1/README
+
+(liblzw0)
+  /usr/bin/cyglzw-0.dll
+
+(liblzw-devel)
+  /usr/bin/liblzw-config
+  /usr/include/lzw.h
+  /usr/lib/liblzw.a
+  /usr/lib/liblzw.dll.a
+  /usr/lib/liblzw.la
+  /usr/lib/pkgconfig/liblzw.pc
+
+------------------
+
+Port Notes:
+
+----- version 0.1.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

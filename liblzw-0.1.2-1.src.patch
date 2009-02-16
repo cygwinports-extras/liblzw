@@ -1,0 +1,11 @@
+--- origsrc/liblzw-0.1.2/Makefile.am	2007-12-29 01:18:12.000000000 -0600
++++ src/liblzw-0.1.2/Makefile.am	2008-01-21 20:57:24.484375000 -0600
+@@ -11,7 +11,7 @@
+ lib_LTLIBRARIES = liblzw.la
+ liblzw_la_SOURCES = lzw.c
+ liblzw_la_CFLAGS = -no-suppress
+-liblzw_la_LDFLAGS = -no-suppress -version-info 0:1:0
++liblzw_la_LDFLAGS = -no-suppress -version-info 0:1:0 -no-undefined
+ 
+ EXTRA_DIST = AUTHORS COPYING ChangeLog INSTALL NEWS README
+ 

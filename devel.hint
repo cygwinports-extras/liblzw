@@ -1,0 +1,8 @@
+category: Libs
+requires: cygwin liblzw0
+external-source: liblzw
+sdesc: "LZW compression library (development)"
+ldesc: "Small library to provide an API for reading LZW compressed (.Z)
+files. API is similar to that of zlib (for reading .gz files) and bzlib
+(for reading .bz2 files) which themselves are just like the classical
+UNIX functions for reading files."
