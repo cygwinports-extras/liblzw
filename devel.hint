@@ -1,5 +1,5 @@
 category: Libs
-requires: cygwin liblzw0
+requires: liblzw0
 external-source: liblzw
 sdesc: "LZW compression library (development)"
 ldesc: "Small library to provide an API for reading LZW compressed (.Z)
